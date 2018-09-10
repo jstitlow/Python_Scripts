@@ -1,0 +1,17 @@
+FISH-QUANT	v2d
+File-version	3D_v1
+RESULTS OF SPOT DETECTION PERFORMED ON 04-Sep-2018 
+COMMENT	Automated outline definition (batch or quick-save)
+IMG_Raw	smFISH_data_20_pos01-1.tif
+IMG_Filtered	
+IMG_DAPI	
+IMG_TS_label	
+FILE_settings	
+PARAMETERS
+Pix-XY	Pix-Z	RI	Ex	Em	NA	Type
+35	140	1.518	561	570	1.4	confocal
+CELL_START	Cell_1
+X_POS	16	940	940	16	
+Y_POS	18	18	942	942	
+Z_POS	
+CELL_END

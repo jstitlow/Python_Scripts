@@ -1,0 +1,888 @@
+<?xml version="1.0" encoding="ASCII"?>
+<matl:properties xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:marker="http://www.olympus.co.jp/hpf/model/marker" xmlns:matl="http://www.olympus.co.jp/hpf/protocol/matl/model/matl" applicationVersion="2.3.1.163" platformVersion="1.23.2.205" version="2.2" id="d92e66c8-3425-49d5-bd1d-cc2a72817ef8">
+  <matl:stage>
+    <matl:name>OLYMPUS,IX3-SSU</matl:name>
+    <matl:speed>0</matl:speed>
+    <matl:overlap>10</matl:overlap>
+    <matl:escapeWhenMove>false</matl:escapeWhenMove>
+    <matl:strokeRange>
+      <matl:minX>-26500000</matl:minX>
+      <matl:minY>-26500000</matl:minY>
+      <matl:maxX>26500000</matl:maxX>
+      <matl:maxY>26500000</matl:maxY>
+    </matl:strokeRange>
+    <matl:swOrigin x="0" y="0"/>
+    <matl:stageVarianceX>0.0</matl:stageVarianceX>
+    <matl:stageVarianceY>0.0</matl:stageVarianceY>
+  </matl:stage>
+  <matl:group xsi:type="matl:SingleAreaROI" objectId="32132b61-e9e9-41c9-b549-debb2efa4412">
+    <marker:regionInfo xsi:type="marker:rectangleRegion">
+      <marker:shape>Rectangle</marker:shape>
+      <marker:coordinates height="212132" width="212132" x="-4837786" y="89974"/>
+    </marker:regionInfo>
+    <matl:protocolGroupId>group13</matl:protocolGroupId>
+    <matl:taskType>LSMImaging</matl:taskType>
+    <matl:enable>true</matl:enable>
+    <matl:description>3733_Dorsal</matl:description>
+    <matl:areaInfo>
+      <matl:numOfXAreas>1</matl:numOfXAreas>
+      <matl:numOfYAreas>1</matl:numOfYAreas>
+      <matl:areaLeft>-4837786</matl:areaLeft>
+      <matl:areaTop>89974</matl:areaTop>
+      <matl:areaWidth>212132</matl:areaWidth>
+      <matl:areaHeight>212132</matl:areaHeight>
+    </matl:areaInfo>
+    <matl:area id="5e8bca73-065e-4810-8d10-2d749bb30455">
+      <matl:protocolId>00e28146-2008-4d6c-b18c-6d85191ca8f2</matl:protocolId>
+      <matl:image>20180824_60x_cycle_A01_G001_0001.oir</matl:image>
+      <matl:xIndex>0</matl:xIndex>
+      <matl:yIndex>0</matl:yIndex>
+    </matl:area>
+  </matl:group>
+  <matl:group xsi:type="matl:SingleAreaROI" objectId="df438866-5740-4ed3-8dec-8d2b04eab880">
+    <marker:regionInfo xsi:type="marker:rectangleRegion">
+      <marker:shape>Rectangle</marker:shape>
+      <marker:coordinates height="212132" width="212132" x="-4568726" y="2400854"/>
+    </marker:regionInfo>
+    <matl:protocolGroupId>group14</matl:protocolGroupId>
+    <matl:taskType>LSMImaging</matl:taskType>
+    <matl:enable>true</matl:enable>
+    <matl:description>3733_Ventral</matl:description>
+    <matl:areaInfo>
+      <matl:numOfXAreas>1</matl:numOfXAreas>
+      <matl:numOfYAreas>1</matl:numOfYAreas>
+      <matl:areaLeft>-4568726</matl:areaLeft>
+      <matl:areaTop>2400854</matl:areaTop>
+      <matl:areaWidth>212132</matl:areaWidth>
+      <matl:areaHeight>212132</matl:areaHeight>
+    </matl:areaInfo>
+    <matl:area id="e1b8cdff-a062-4676-b5ad-2285f424775a">
+      <matl:protocolId>58c8cdc0-9413-471b-afa5-f32e47e9431b</matl:protocolId>
+      <matl:image>20180824_60x_cycle_A01_G002_0001.oir</matl:image>
+      <matl:xIndex>0</matl:xIndex>
+      <matl:yIndex>0</matl:yIndex>
+    </matl:area>
+  </matl:group>
+  <matl:group xsi:type="matl:SingleAreaROI" objectId="a9388456-4988-4685-8561-f911de66984c">
+    <marker:regionInfo xsi:type="marker:rectangleRegion">
+      <marker:shape>Rectangle</marker:shape>
+      <marker:coordinates height="212132" width="212132" x="-4487126" y="3691414"/>
+    </marker:regionInfo>
+    <matl:protocolGroupId>group15</matl:protocolGroupId>
+    <matl:taskType>LSMImaging</matl:taskType>
+    <matl:enable>true</matl:enable>
+    <matl:description>3733_VNC</matl:description>
+    <matl:areaInfo>
+      <matl:numOfXAreas>1</matl:numOfXAreas>
+      <matl:numOfYAreas>1</matl:numOfYAreas>
+      <matl:areaLeft>-4487126</matl:areaLeft>
+      <matl:areaTop>3691414</matl:areaTop>
+      <matl:areaWidth>212132</matl:areaWidth>
+      <matl:areaHeight>212132</matl:areaHeight>
+    </matl:areaInfo>
+    <matl:area id="50b8b9f4-2807-4918-88d3-6e9f6530943f">
+      <matl:protocolId>0dfdec33-2aff-4552-bb2a-46f8ab1e82ed</matl:protocolId>
+      <matl:image>20180824_60x_cycle_A01_G003_0001.oir</matl:image>
+      <matl:xIndex>0</matl:xIndex>
+      <matl:yIndex>0</matl:yIndex>
+    </matl:area>
+  </matl:group>
+  <matl:group xsi:type="matl:SingleAreaROI" objectId="9de190d3-3cd9-47c4-ac88-bbdec82b390d">
+    <marker:regionInfo xsi:type="marker:rectangleRegion">
+      <marker:shape>Rectangle</marker:shape>
+      <marker:coordinates height="212132" width="212132" x="-3354206" y="-74506"/>
+    </marker:regionInfo>
+    <matl:protocolGroupId>group16</matl:protocolGroupId>
+    <matl:taskType>LSMImaging</matl:taskType>
+    <matl:enable>true</matl:enable>
+    <matl:description>2305_Dorsal</matl:description>
+    <matl:areaInfo>
+      <matl:numOfXAreas>1</matl:numOfXAreas>
+      <matl:numOfYAreas>1</matl:numOfYAreas>
+      <matl:areaLeft>-3354206</matl:areaLeft>
+      <matl:areaTop>-74506</matl:areaTop>
+      <matl:areaWidth>212132</matl:areaWidth>
+      <matl:areaHeight>212132</matl:areaHeight>
+    </matl:areaInfo>
+    <matl:area id="ef6c3fc3-36d6-491e-b498-d67e71722f79">
+      <matl:protocolId>fa644e56-9806-460a-83c0-4c1e98de7e3c</matl:protocolId>
+      <matl:image>20180824_60x_cycle_A01_G004_0001.oir</matl:image>
+      <matl:xIndex>0</matl:xIndex>
+      <matl:yIndex>0</matl:yIndex>
+    </matl:area>
+  </matl:group>
+  <matl:group xsi:type="matl:SingleAreaROI" objectId="e206c7bd-e5ff-45ba-8157-c5e03413c1fb">
+    <marker:regionInfo xsi:type="marker:rectangleRegion">
+      <marker:shape>Rectangle</marker:shape>
+      <marker:coordinates height="212132" width="212132" x="-3303106" y="2344034"/>
+    </marker:regionInfo>
+    <matl:protocolGroupId>group17</matl:protocolGroupId>
+    <matl:taskType>LSMImaging</matl:taskType>
+    <matl:enable>true</matl:enable>
+    <matl:description>2305_Ventral</matl:description>
+    <matl:areaInfo>
+      <matl:numOfXAreas>1</matl:numOfXAreas>
+      <matl:numOfYAreas>1</matl:numOfYAreas>
+      <matl:areaLeft>-3303106</matl:areaLeft>
+      <matl:areaTop>2344034</matl:areaTop>
+      <matl:areaWidth>212132</matl:areaWidth>
+      <matl:areaHeight>212132</matl:areaHeight>
+    </matl:areaInfo>
+    <matl:area id="6287c1d7-d5b0-40bf-bebd-dcd73728d145">
+      <matl:protocolId>328f0c70-5b2e-4772-a6f2-b151f7e04604</matl:protocolId>
+      <matl:image>20180824_60x_cycle_A01_G005_0001.oir</matl:image>
+      <matl:xIndex>0</matl:xIndex>
+      <matl:yIndex>0</matl:yIndex>
+    </matl:area>
+  </matl:group>
+  <matl:group xsi:type="matl:SingleAreaROI" objectId="9f161998-daf2-48ff-9022-8bc147c627ce">
+    <marker:regionInfo xsi:type="marker:rectangleRegion">
+      <marker:shape>Rectangle</marker:shape>
+      <marker:coordinates height="212132" width="212132" x="-3186986" y="3624054"/>
+    </marker:regionInfo>
+    <matl:protocolGroupId>group18</matl:protocolGroupId>
+    <matl:taskType>LSMImaging</matl:taskType>
+    <matl:enable>true</matl:enable>
+    <matl:description>2305_VNC</matl:description>
+    <matl:areaInfo>
+      <matl:numOfXAreas>1</matl:numOfXAreas>
+      <matl:numOfYAreas>1</matl:numOfYAreas>
+      <matl:areaLeft>-3186986</matl:areaLeft>
+      <matl:areaTop>3624054</matl:areaTop>
+      <matl:areaWidth>212132</matl:areaWidth>
+      <matl:areaHeight>212132</matl:areaHeight>
+    </matl:areaInfo>
+    <matl:area id="ea3d1001-9bcd-4bc2-811e-1c33e38e27d7">
+      <matl:protocolId>8242dc29-47af-4409-91f2-5f2e5fca5202</matl:protocolId>
+      <matl:image>20180824_60x_cycle_A01_G006_0001.oir</matl:image>
+      <matl:xIndex>0</matl:xIndex>
+      <matl:yIndex>0</matl:yIndex>
+    </matl:area>
+  </matl:group>
+  <matl:group xsi:type="matl:SingleAreaROI" objectId="23fcf9b5-a749-4350-ae78-9dcc6171bc02">
+    <marker:regionInfo xsi:type="marker:rectangleRegion">
+      <marker:shape>Rectangle</marker:shape>
+      <marker:coordinates height="212132" width="212132" x="-1928726" y="-351446"/>
+    </marker:regionInfo>
+    <matl:protocolGroupId>group19</matl:protocolGroupId>
+    <matl:taskType>LSMImaging</matl:taskType>
+    <matl:enable>true</matl:enable>
+    <matl:description>2201_Dorsal</matl:description>
+    <matl:areaInfo>
+      <matl:numOfXAreas>1</matl:numOfXAreas>
+      <matl:numOfYAreas>1</matl:numOfYAreas>
+      <matl:areaLeft>-1928726</matl:areaLeft>
+      <matl:areaTop>-351446</matl:areaTop>
+      <matl:areaWidth>212132</matl:areaWidth>
+      <matl:areaHeight>212132</matl:areaHeight>
+    </matl:areaInfo>
+    <matl:area id="184ef090-b661-45e8-81d6-c45de9f35200">
+      <matl:protocolId>d210fad8-2c2f-425a-9c1f-f859348c572e</matl:protocolId>
+      <matl:image>20180824_60x_cycle_A01_G007_0001.oir</matl:image>
+      <matl:xIndex>0</matl:xIndex>
+      <matl:yIndex>0</matl:yIndex>
+    </matl:area>
+  </matl:group>
+  <matl:group xsi:type="matl:SingleAreaROI" objectId="a90850c6-0741-4bc3-934b-a4f2df7743ee">
+    <marker:regionInfo xsi:type="marker:rectangleRegion">
+      <marker:shape>Rectangle</marker:shape>
+      <marker:coordinates height="212132" width="212132" x="-2057046" y="2293514"/>
+    </marker:regionInfo>
+    <matl:protocolGroupId>group20</matl:protocolGroupId>
+    <matl:taskType>LSMImaging</matl:taskType>
+    <matl:enable>true</matl:enable>
+    <matl:description>2201_Ventral</matl:description>
+    <matl:areaInfo>
+      <matl:numOfXAreas>1</matl:numOfXAreas>
+      <matl:numOfYAreas>1</matl:numOfYAreas>
+      <matl:areaLeft>-2057046</matl:areaLeft>
+      <matl:areaTop>2293514</matl:areaTop>
+      <matl:areaWidth>212132</matl:areaWidth>
+      <matl:areaHeight>212132</matl:areaHeight>
+    </matl:areaInfo>
+    <matl:area id="f542406b-6cc7-483a-958e-3ed254408102">
+      <matl:protocolId>935796fc-9222-4fab-aa29-3695e4716b00</matl:protocolId>
+      <matl:image>20180824_60x_cycle_A01_G008_0001.oir</matl:image>
+      <matl:xIndex>0</matl:xIndex>
+      <matl:yIndex>0</matl:yIndex>
+    </matl:area>
+  </matl:group>
+  <matl:group xsi:type="matl:SingleAreaROI" objectId="f5ce05ca-19cd-4bb0-a456-583e509d2dce">
+    <marker:regionInfo xsi:type="marker:rectangleRegion">
+      <marker:shape>Rectangle</marker:shape>
+      <marker:coordinates height="212132" width="212132" x="-1908506" y="3616374"/>
+    </marker:regionInfo>
+    <matl:protocolGroupId>group21</matl:protocolGroupId>
+    <matl:taskType>LSMImaging</matl:taskType>
+    <matl:enable>true</matl:enable>
+    <matl:description>2201_VNC</matl:description>
+    <matl:areaInfo>
+      <matl:numOfXAreas>1</matl:numOfXAreas>
+      <matl:numOfYAreas>1</matl:numOfYAreas>
+      <matl:areaLeft>-1908506</matl:areaLeft>
+      <matl:areaTop>3616374</matl:areaTop>
+      <matl:areaWidth>212132</matl:areaWidth>
+      <matl:areaHeight>212132</matl:areaHeight>
+    </matl:areaInfo>
+    <matl:area id="0310ceb3-fecc-4545-8c62-5b01a561c7fa">
+      <matl:protocolId>ecbc4054-b5c6-4f2d-9629-d8e740171a97</matl:protocolId>
+      <matl:image>20180824_60x_cycle_A01_G009_0001.oir</matl:image>
+      <matl:xIndex>0</matl:xIndex>
+      <matl:yIndex>0</matl:yIndex>
+    </matl:area>
+  </matl:group>
+  <matl:group xsi:type="matl:SingleAreaROI" objectId="7b512d5b-cfe6-4422-aabf-b20d8fb90a9e">
+    <marker:regionInfo xsi:type="marker:rectangleRegion">
+      <marker:shape>Rectangle</marker:shape>
+      <marker:coordinates height="212132" width="212132" x="-669906" y="896694"/>
+    </marker:regionInfo>
+    <matl:protocolGroupId>group22</matl:protocolGroupId>
+    <matl:taskType>LSMImaging</matl:taskType>
+    <matl:enable>true</matl:enable>
+    <matl:description>2905_Dorsal</matl:description>
+    <matl:areaInfo>
+      <matl:numOfXAreas>1</matl:numOfXAreas>
+      <matl:numOfYAreas>1</matl:numOfYAreas>
+      <matl:areaLeft>-669906</matl:areaLeft>
+      <matl:areaTop>896694</matl:areaTop>
+      <matl:areaWidth>212132</matl:areaWidth>
+      <matl:areaHeight>212132</matl:areaHeight>
+    </matl:areaInfo>
+    <matl:area id="a7caed81-a356-4a11-b328-0c72fb5a6276">
+      <matl:protocolId>395d9253-d473-49ee-8531-fabd6e21ec85</matl:protocolId>
+      <matl:image>20180824_60x_cycle_A01_G010_0001.oir</matl:image>
+      <matl:xIndex>0</matl:xIndex>
+      <matl:yIndex>0</matl:yIndex>
+    </matl:area>
+  </matl:group>
+  <matl:group xsi:type="matl:SingleAreaROI" objectId="a4082cf7-96ac-4474-98b9-d60423d5d7bc">
+    <marker:regionInfo xsi:type="marker:rectangleRegion">
+      <marker:shape>Rectangle</marker:shape>
+      <marker:coordinates height="212132" width="212132" x="-783806" y="2145494"/>
+    </marker:regionInfo>
+    <matl:protocolGroupId>group23</matl:protocolGroupId>
+    <matl:taskType>LSMImaging</matl:taskType>
+    <matl:enable>true</matl:enable>
+    <matl:description>2905_Ventral</matl:description>
+    <matl:areaInfo>
+      <matl:numOfXAreas>1</matl:numOfXAreas>
+      <matl:numOfYAreas>1</matl:numOfYAreas>
+      <matl:areaLeft>-783806</matl:areaLeft>
+      <matl:areaTop>2145494</matl:areaTop>
+      <matl:areaWidth>212132</matl:areaWidth>
+      <matl:areaHeight>212132</matl:areaHeight>
+    </matl:areaInfo>
+    <matl:area id="8c38a579-371b-41f0-beba-1ac40f3dec60">
+      <matl:protocolId>27ee39ca-bc55-49a7-938f-2568af2f2182</matl:protocolId>
+      <matl:image>20180824_60x_cycle_A01_G011_0001.oir</matl:image>
+      <matl:xIndex>0</matl:xIndex>
+      <matl:yIndex>0</matl:yIndex>
+    </matl:area>
+  </matl:group>
+  <matl:group xsi:type="matl:SingleAreaROI" objectId="de14e8c3-fd07-401f-bc2d-53ddeacf369d">
+    <marker:regionInfo xsi:type="marker:rectangleRegion">
+      <marker:shape>Rectangle</marker:shape>
+      <marker:coordinates height="212132" width="212132" x="-586786" y="2409074"/>
+    </marker:regionInfo>
+    <matl:protocolGroupId>group24</matl:protocolGroupId>
+    <matl:taskType>LSMImaging</matl:taskType>
+    <matl:enable>true</matl:enable>
+    <matl:description>2905_VNC</matl:description>
+    <matl:areaInfo>
+      <matl:numOfXAreas>1</matl:numOfXAreas>
+      <matl:numOfYAreas>1</matl:numOfYAreas>
+      <matl:areaLeft>-586786</matl:areaLeft>
+      <matl:areaTop>2409074</matl:areaTop>
+      <matl:areaWidth>212132</matl:areaWidth>
+      <matl:areaHeight>212132</matl:areaHeight>
+    </matl:areaInfo>
+    <matl:area id="8baf6886-be0a-46c0-aea5-0b381ac4f3e9">
+      <matl:protocolId>4d269b60-e633-48b5-ae87-ff1c4d9cdea9</matl:protocolId>
+      <matl:image>20180824_60x_cycle_A01_G012_0001.oir</matl:image>
+      <matl:xIndex>0</matl:xIndex>
+      <matl:yIndex>0</matl:yIndex>
+    </matl:area>
+  </matl:group>
+  <matl:group xsi:type="matl:SingleAreaROI" objectId="ffe5b1cb-67d2-4b8c-a7b7-c86929771d11">
+    <marker:regionInfo xsi:type="marker:rectangleRegion">
+      <marker:shape>Rectangle</marker:shape>
+      <marker:coordinates height="212132" width="212132" x="824014" y="-448686"/>
+    </marker:regionInfo>
+    <matl:protocolGroupId>group25</matl:protocolGroupId>
+    <matl:taskType>LSMImaging</matl:taskType>
+    <matl:enable>true</matl:enable>
+    <matl:description>2285_Dorsal</matl:description>
+    <matl:areaInfo>
+      <matl:numOfXAreas>1</matl:numOfXAreas>
+      <matl:numOfYAreas>1</matl:numOfYAreas>
+      <matl:areaLeft>824014</matl:areaLeft>
+      <matl:areaTop>-448686</matl:areaTop>
+      <matl:areaWidth>212132</matl:areaWidth>
+      <matl:areaHeight>212132</matl:areaHeight>
+    </matl:areaInfo>
+    <matl:area id="2f13a19f-3a8d-44a2-a14d-e9290aea487e">
+      <matl:protocolId>970d5edb-5b38-4c53-9113-5276e0d1b626</matl:protocolId>
+      <matl:image>20180824_60x_cycle_A01_G013_0001.oir</matl:image>
+      <matl:xIndex>0</matl:xIndex>
+      <matl:yIndex>0</matl:yIndex>
+    </matl:area>
+  </matl:group>
+  <matl:group xsi:type="matl:SingleAreaROI" objectId="1fdbc69f-624f-42a4-a861-4db738739640">
+    <marker:regionInfo xsi:type="marker:rectangleRegion">
+      <marker:shape>Rectangle</marker:shape>
+      <marker:coordinates height="212132" width="212132" x="660394" y="1703214"/>
+    </marker:regionInfo>
+    <matl:protocolGroupId>group26</matl:protocolGroupId>
+    <matl:taskType>LSMImaging</matl:taskType>
+    <matl:enable>true</matl:enable>
+    <matl:description>2285_Ventral</matl:description>
+    <matl:areaInfo>
+      <matl:numOfXAreas>1</matl:numOfXAreas>
+      <matl:numOfYAreas>1</matl:numOfYAreas>
+      <matl:areaLeft>660394</matl:areaLeft>
+      <matl:areaTop>1703214</matl:areaTop>
+      <matl:areaWidth>212132</matl:areaWidth>
+      <matl:areaHeight>212132</matl:areaHeight>
+    </matl:areaInfo>
+    <matl:area id="2456d83d-ee29-4e68-b61e-25f155cfe299">
+      <matl:protocolId>dac4e841-0ebc-407e-a54f-45ba14393536</matl:protocolId>
+      <matl:image>20180824_60x_cycle_A01_G014_0001.oir</matl:image>
+      <matl:xIndex>0</matl:xIndex>
+      <matl:yIndex>0</matl:yIndex>
+    </matl:area>
+  </matl:group>
+  <matl:group xsi:type="matl:SingleAreaROI" objectId="866f06a0-202b-485c-af0f-d9a079558a08">
+    <marker:regionInfo xsi:type="marker:rectangleRegion">
+      <marker:shape>Rectangle</marker:shape>
+      <marker:coordinates height="212132" width="212132" x="521414" y="3157174"/>
+    </marker:regionInfo>
+    <matl:protocolGroupId>group27</matl:protocolGroupId>
+    <matl:taskType>LSMImaging</matl:taskType>
+    <matl:enable>true</matl:enable>
+    <matl:description>2285_VNC</matl:description>
+    <matl:areaInfo>
+      <matl:numOfXAreas>1</matl:numOfXAreas>
+      <matl:numOfYAreas>1</matl:numOfYAreas>
+      <matl:areaLeft>521414</matl:areaLeft>
+      <matl:areaTop>3157174</matl:areaTop>
+      <matl:areaWidth>212132</matl:areaWidth>
+      <matl:areaHeight>212132</matl:areaHeight>
+    </matl:areaInfo>
+    <matl:area id="67a5be2a-0d72-4a2b-bc54-b491905807c8">
+      <matl:protocolId>f76409af-cf0e-480a-9d13-f59907b53030</matl:protocolId>
+      <matl:image>20180824_60x_cycle_A01_G015_0001.oir</matl:image>
+      <matl:xIndex>0</matl:xIndex>
+      <matl:yIndex>0</matl:yIndex>
+    </matl:area>
+  </matl:group>
+  <matl:group xsi:type="matl:SingleAreaROI" objectId="1d8a1aad-cdf1-4b21-8208-0a3163b56045">
+    <marker:regionInfo xsi:type="marker:rectangleRegion">
+      <marker:shape>Rectangle</marker:shape>
+      <marker:coordinates height="212132" width="212132" x="1915454" y="518974"/>
+    </marker:regionInfo>
+    <matl:protocolGroupId>group28</matl:protocolGroupId>
+    <matl:taskType>LSMImaging</matl:taskType>
+    <matl:enable>true</matl:enable>
+    <matl:description>3737_Dorsal</matl:description>
+    <matl:areaInfo>
+      <matl:numOfXAreas>1</matl:numOfXAreas>
+      <matl:numOfYAreas>1</matl:numOfYAreas>
+      <matl:areaLeft>1915454</matl:areaLeft>
+      <matl:areaTop>518974</matl:areaTop>
+      <matl:areaWidth>212132</matl:areaWidth>
+      <matl:areaHeight>212132</matl:areaHeight>
+    </matl:areaInfo>
+    <matl:area id="85cb485c-2ae0-4db8-8d49-a3b4aa46c7d0">
+      <matl:protocolId>a4d693e1-af7d-4508-817d-04e077e4ac6d</matl:protocolId>
+      <matl:image>20180824_60x_cycle_A01_G016_0001.oir</matl:image>
+      <matl:xIndex>0</matl:xIndex>
+      <matl:yIndex>0</matl:yIndex>
+    </matl:area>
+  </matl:group>
+  <matl:group xsi:type="matl:SingleAreaROI" objectId="3f191dfe-a3e9-482d-b6e3-21ed28cd38da">
+    <marker:regionInfo xsi:type="marker:rectangleRegion">
+      <marker:shape>Rectangle</marker:shape>
+      <marker:coordinates height="212132" width="212132" x="1676314" y="1716734"/>
+    </marker:regionInfo>
+    <matl:protocolGroupId>group29</matl:protocolGroupId>
+    <matl:taskType>LSMImaging</matl:taskType>
+    <matl:enable>true</matl:enable>
+    <matl:description>3737_Ventral</matl:description>
+    <matl:areaInfo>
+      <matl:numOfXAreas>1</matl:numOfXAreas>
+      <matl:numOfYAreas>1</matl:numOfYAreas>
+      <matl:areaLeft>1676314</matl:areaLeft>
+      <matl:areaTop>1716734</matl:areaTop>
+      <matl:areaWidth>212132</matl:areaWidth>
+      <matl:areaHeight>212132</matl:areaHeight>
+    </matl:areaInfo>
+    <matl:area id="7ab1318c-8742-4477-91df-26c8897984a9">
+      <matl:protocolId>f34283b6-cadb-495d-ac75-048c991c2f3c</matl:protocolId>
+      <matl:image>20180824_60x_cycle_A01_G017_0001.oir</matl:image>
+      <matl:xIndex>0</matl:xIndex>
+      <matl:yIndex>0</matl:yIndex>
+    </matl:area>
+  </matl:group>
+  <matl:group xsi:type="matl:SingleAreaROI" objectId="a8b67f06-07ab-4dca-9d5f-014dd2f2454d">
+    <marker:regionInfo xsi:type="marker:rectangleRegion">
+      <marker:shape>Rectangle</marker:shape>
+      <marker:coordinates height="212132" width="212132" x="1696374" y="3028894"/>
+    </marker:regionInfo>
+    <matl:protocolGroupId>group30</matl:protocolGroupId>
+    <matl:taskType>LSMImaging</matl:taskType>
+    <matl:enable>true</matl:enable>
+    <matl:description>3737_VNC</matl:description>
+    <matl:areaInfo>
+      <matl:numOfXAreas>1</matl:numOfXAreas>
+      <matl:numOfYAreas>1</matl:numOfYAreas>
+      <matl:areaLeft>1696374</matl:areaLeft>
+      <matl:areaTop>3028894</matl:areaTop>
+      <matl:areaWidth>212132</matl:areaWidth>
+      <matl:areaHeight>212132</matl:areaHeight>
+    </matl:areaInfo>
+    <matl:area id="9a46c12e-64a9-4f13-a012-77ca34ff9ce0">
+      <matl:protocolId>247ea83c-8694-40cb-a05c-7f400329b12f</matl:protocolId>
+      <matl:image>20180824_60x_cycle_A01_G018_0001.oir</matl:image>
+      <matl:xIndex>0</matl:xIndex>
+      <matl:yIndex>0</matl:yIndex>
+    </matl:area>
+  </matl:group>
+  <matl:group xsi:type="matl:SingleAreaROI" objectId="70989e8b-ef97-485d-bf34-02d502190873">
+    <marker:regionInfo xsi:type="marker:rectangleRegion">
+      <marker:shape>Rectangle</marker:shape>
+      <marker:coordinates height="212132" width="212132" x="3459554" y="602054"/>
+    </marker:regionInfo>
+    <matl:protocolGroupId>group31</matl:protocolGroupId>
+    <matl:taskType>LSMImaging</matl:taskType>
+    <matl:enable>true</matl:enable>
+    <matl:description>3173_Dorsal</matl:description>
+    <matl:areaInfo>
+      <matl:numOfXAreas>1</matl:numOfXAreas>
+      <matl:numOfYAreas>1</matl:numOfYAreas>
+      <matl:areaLeft>3459554</matl:areaLeft>
+      <matl:areaTop>602054</matl:areaTop>
+      <matl:areaWidth>212132</matl:areaWidth>
+      <matl:areaHeight>212132</matl:areaHeight>
+    </matl:areaInfo>
+    <matl:area id="280a7b9c-6704-4536-8cc6-d8b428e54f90">
+      <matl:protocolId>803c7600-92c9-4033-b32c-38bd34220a07</matl:protocolId>
+      <matl:image>20180824_60x_cycle_A01_G019_0001.oir</matl:image>
+      <matl:xIndex>0</matl:xIndex>
+      <matl:yIndex>0</matl:yIndex>
+    </matl:area>
+  </matl:group>
+  <matl:group xsi:type="matl:SingleAreaROI" objectId="4a977203-5da2-430d-b723-e21b708761fb">
+    <marker:regionInfo xsi:type="marker:rectangleRegion">
+      <marker:shape>Rectangle</marker:shape>
+      <marker:coordinates height="212132" width="212132" x="3257134" y="1894294"/>
+    </marker:regionInfo>
+    <matl:protocolGroupId>group32</matl:protocolGroupId>
+    <matl:taskType>LSMImaging</matl:taskType>
+    <matl:enable>true</matl:enable>
+    <matl:description>3173_Ventral</matl:description>
+    <matl:areaInfo>
+      <matl:numOfXAreas>1</matl:numOfXAreas>
+      <matl:numOfYAreas>1</matl:numOfYAreas>
+      <matl:areaLeft>3257134</matl:areaLeft>
+      <matl:areaTop>1894294</matl:areaTop>
+      <matl:areaWidth>212132</matl:areaWidth>
+      <matl:areaHeight>212132</matl:areaHeight>
+    </matl:areaInfo>
+    <matl:area id="4bdee701-251b-4b41-a903-022e50caba2b">
+      <matl:protocolId>cfba1e42-e776-4c95-8a8b-c4cbc9e83370</matl:protocolId>
+      <matl:image>20180824_60x_cycle_A01_G020_0001.oir</matl:image>
+      <matl:xIndex>0</matl:xIndex>
+      <matl:yIndex>0</matl:yIndex>
+    </matl:area>
+  </matl:group>
+  <matl:group xsi:type="matl:SingleAreaROI" objectId="542d2f9b-be89-4746-abe4-32e4bb2e9132">
+    <marker:regionInfo xsi:type="marker:rectangleRegion">
+      <marker:shape>Rectangle</marker:shape>
+      <marker:coordinates height="212132" width="212132" x="3068654" y="3007194"/>
+    </marker:regionInfo>
+    <matl:protocolGroupId>group33</matl:protocolGroupId>
+    <matl:taskType>LSMImaging</matl:taskType>
+    <matl:enable>true</matl:enable>
+    <matl:description>3173_VNC</matl:description>
+    <matl:areaInfo>
+      <matl:numOfXAreas>1</matl:numOfXAreas>
+      <matl:numOfYAreas>1</matl:numOfYAreas>
+      <matl:areaLeft>3068654</matl:areaLeft>
+      <matl:areaTop>3007194</matl:areaTop>
+      <matl:areaWidth>212132</matl:areaWidth>
+      <matl:areaHeight>212132</matl:areaHeight>
+    </matl:areaInfo>
+    <matl:area id="a12863ba-7275-4544-bed5-f7118135b6d1">
+      <matl:protocolId>e1664830-e2e9-4117-9d9e-6bd9592b9ee3</matl:protocolId>
+      <matl:image>20180824_60x_cycle_A01_G021_0001.oir</matl:image>
+      <matl:xIndex>0</matl:xIndex>
+      <matl:yIndex>0</matl:yIndex>
+    </matl:area>
+  </matl:group>
+  <matl:group xsi:type="matl:SingleAreaROI" objectId="85306694-346d-4b17-8de8-30ff2b0539f3">
+    <marker:regionInfo xsi:type="marker:rectangleRegion">
+      <marker:shape>Rectangle</marker:shape>
+      <marker:coordinates height="212132" width="212132" x="5184814" y="-519986"/>
+    </marker:regionInfo>
+    <matl:protocolGroupId>group34</matl:protocolGroupId>
+    <matl:taskType>LSMImaging</matl:taskType>
+    <matl:enable>true</matl:enable>
+    <matl:description>2939_Dorsal</matl:description>
+    <matl:areaInfo>
+      <matl:numOfXAreas>1</matl:numOfXAreas>
+      <matl:numOfYAreas>1</matl:numOfYAreas>
+      <matl:areaLeft>5184814</matl:areaLeft>
+      <matl:areaTop>-519986</matl:areaTop>
+      <matl:areaWidth>212132</matl:areaWidth>
+      <matl:areaHeight>212132</matl:areaHeight>
+    </matl:areaInfo>
+    <matl:area id="0f8eb9e4-6db3-46fc-a4c0-877f448fd9f9">
+      <matl:protocolId>fae5701c-d4e5-4bdd-aaae-8de15cecb799</matl:protocolId>
+      <matl:image>20180824_60x_cycle_A01_G022_0001.oir</matl:image>
+      <matl:xIndex>0</matl:xIndex>
+      <matl:yIndex>0</matl:yIndex>
+    </matl:area>
+  </matl:group>
+  <matl:group xsi:type="matl:SingleAreaROI" objectId="0c3aec6f-2d15-4a86-9a62-d59fecf2536b">
+    <marker:regionInfo xsi:type="marker:rectangleRegion">
+      <marker:shape>Rectangle</marker:shape>
+      <marker:coordinates height="212132" width="212132" x="4952094" y="1430254"/>
+    </marker:regionInfo>
+    <matl:protocolGroupId>group35</matl:protocolGroupId>
+    <matl:taskType>LSMImaging</matl:taskType>
+    <matl:enable>true</matl:enable>
+    <matl:description>2939_Ventral</matl:description>
+    <matl:areaInfo>
+      <matl:numOfXAreas>1</matl:numOfXAreas>
+      <matl:numOfYAreas>1</matl:numOfYAreas>
+      <matl:areaLeft>4952094</matl:areaLeft>
+      <matl:areaTop>1430254</matl:areaTop>
+      <matl:areaWidth>212132</matl:areaWidth>
+      <matl:areaHeight>212132</matl:areaHeight>
+    </matl:areaInfo>
+    <matl:area id="1b9600c8-87f6-423c-bb7c-a983afba5b07">
+      <matl:protocolId>1af99648-c66f-41cc-a4a5-250b15adf0f0</matl:protocolId>
+      <matl:image>20180824_60x_cycle_A01_G023_0001.oir</matl:image>
+      <matl:xIndex>0</matl:xIndex>
+      <matl:yIndex>0</matl:yIndex>
+    </matl:area>
+  </matl:group>
+  <matl:group xsi:type="matl:SingleAreaROI" objectId="70da2631-82a8-479b-a9b9-2a3dbd29c168">
+    <marker:regionInfo xsi:type="marker:rectangleRegion">
+      <marker:shape>Rectangle</marker:shape>
+      <marker:coordinates height="212132" width="212132" x="4904954" y="2569174"/>
+    </marker:regionInfo>
+    <matl:protocolGroupId>group36</matl:protocolGroupId>
+    <matl:taskType>LSMImaging</matl:taskType>
+    <matl:enable>true</matl:enable>
+    <matl:description>2939_VNC</matl:description>
+    <matl:areaInfo>
+      <matl:numOfXAreas>1</matl:numOfXAreas>
+      <matl:numOfYAreas>1</matl:numOfYAreas>
+      <matl:areaLeft>4904954</matl:areaLeft>
+      <matl:areaTop>2569174</matl:areaTop>
+      <matl:areaWidth>212132</matl:areaWidth>
+      <matl:areaHeight>212132</matl:areaHeight>
+    </matl:areaInfo>
+    <matl:area id="2d8d7242-6ff3-46a8-901f-68a72deabb68">
+      <matl:protocolId>4e7f0d51-19c7-4323-9a9f-d224323e80c1</matl:protocolId>
+      <matl:image>20180824_60x_cycle_A01_G024_0001.oir</matl:image>
+      <matl:xIndex>0</matl:xIndex>
+      <matl:yIndex>0</matl:yIndex>
+    </matl:area>
+  </matl:group>
+  <matl:group xsi:type="matl:SingleAreaROI" objectId="0621b477-5729-4046-a61a-cda54b35ba05">
+    <marker:regionInfo xsi:type="marker:rectangleRegion">
+      <marker:shape>Rectangle</marker:shape>
+      <marker:coordinates height="212132" width="212132" x="6556954" y="345874"/>
+    </marker:regionInfo>
+    <matl:protocolGroupId>group38</matl:protocolGroupId>
+    <matl:taskType>LSMImaging</matl:taskType>
+    <matl:enable>true</matl:enable>
+    <matl:description>2739_Dorsal_deep</matl:description>
+    <matl:areaInfo>
+      <matl:numOfXAreas>1</matl:numOfXAreas>
+      <matl:numOfYAreas>1</matl:numOfYAreas>
+      <matl:areaLeft>6556954</matl:areaLeft>
+      <matl:areaTop>345874</matl:areaTop>
+      <matl:areaWidth>212132</matl:areaWidth>
+      <matl:areaHeight>212132</matl:areaHeight>
+    </matl:areaInfo>
+    <matl:area id="2612abd1-f814-4357-8070-0cd48a71ec1c">
+      <matl:protocolId>ccdcb523-2f91-4105-9fbf-1eb7c4bf2ab3</matl:protocolId>
+      <matl:image>20180824_60x_cycle_A01_G025_0001.oir</matl:image>
+      <matl:xIndex>0</matl:xIndex>
+      <matl:yIndex>0</matl:yIndex>
+    </matl:area>
+  </matl:group>
+  <matl:group xsi:type="matl:SingleAreaROI" objectId="07ba7731-f4b7-4602-bfde-73110de91a8f">
+    <marker:regionInfo xsi:type="marker:rectangleRegion">
+      <marker:shape>Rectangle</marker:shape>
+      <marker:coordinates height="212132" width="212132" x="6665954" y="-417406"/>
+    </marker:regionInfo>
+    <matl:protocolGroupId>group37</matl:protocolGroupId>
+    <matl:taskType>LSMImaging</matl:taskType>
+    <matl:enable>true</matl:enable>
+    <matl:description>2739_Ventral</matl:description>
+    <matl:areaInfo>
+      <matl:numOfXAreas>1</matl:numOfXAreas>
+      <matl:numOfYAreas>1</matl:numOfYAreas>
+      <matl:areaLeft>6665954</matl:areaLeft>
+      <matl:areaTop>-417406</matl:areaTop>
+      <matl:areaWidth>212132</matl:areaWidth>
+      <matl:areaHeight>212132</matl:areaHeight>
+    </matl:areaInfo>
+    <matl:area id="c2b781b2-0338-45f5-94e8-44863ffac83f">
+      <matl:protocolId>20ab8588-be5f-44d7-b953-28d67b16e592</matl:protocolId>
+      <matl:image>20180824_60x_cycle_A01_G026_0001.oir</matl:image>
+      <matl:xIndex>0</matl:xIndex>
+      <matl:yIndex>0</matl:yIndex>
+    </matl:area>
+  </matl:group>
+  <matl:group xsi:type="matl:SingleAreaROI" objectId="0089f251-c6c4-4bb2-9edf-3a4b8ae2ef3f">
+    <marker:regionInfo xsi:type="marker:rectangleRegion">
+      <marker:shape>Rectangle</marker:shape>
+      <marker:coordinates height="212132" width="212132" x="6637914" y="605394"/>
+    </marker:regionInfo>
+    <matl:protocolGroupId>group39</matl:protocolGroupId>
+    <matl:taskType>LSMImaging</matl:taskType>
+    <matl:enable>true</matl:enable>
+    <matl:description>2739_VNC</matl:description>
+    <matl:areaInfo>
+      <matl:numOfXAreas>1</matl:numOfXAreas>
+      <matl:numOfYAreas>1</matl:numOfYAreas>
+      <matl:areaLeft>6637914</matl:areaLeft>
+      <matl:areaTop>605394</matl:areaTop>
+      <matl:areaWidth>212132</matl:areaWidth>
+      <matl:areaHeight>212132</matl:areaHeight>
+    </matl:areaInfo>
+    <matl:area id="776884a0-7677-4fe0-9456-71f7e1d66f57">
+      <matl:protocolId>87eb1b1e-7cc2-498f-baed-83a672e27d52</matl:protocolId>
+      <matl:image>20180824_60x_cycle_A01_G027_0001.oir</matl:image>
+      <matl:xIndex>0</matl:xIndex>
+      <matl:yIndex>0</matl:yIndex>
+    </matl:area>
+  </matl:group>
+  <matl:group xsi:type="matl:SingleAreaROI" objectId="e628c603-8aad-4650-8ee8-940920a08354">
+    <marker:regionInfo xsi:type="marker:rectangleRegion">
+      <marker:shape>Rectangle</marker:shape>
+      <marker:coordinates height="212132" width="212132" x="8168634" y="-449426"/>
+    </marker:regionInfo>
+    <matl:protocolGroupId>group40</matl:protocolGroupId>
+    <matl:taskType>LSMImaging</matl:taskType>
+    <matl:enable>true</matl:enable>
+    <matl:description>3089_Dorsal</matl:description>
+    <matl:areaInfo>
+      <matl:numOfXAreas>1</matl:numOfXAreas>
+      <matl:numOfYAreas>1</matl:numOfYAreas>
+      <matl:areaLeft>8168634</matl:areaLeft>
+      <matl:areaTop>-449426</matl:areaTop>
+      <matl:areaWidth>212132</matl:areaWidth>
+      <matl:areaHeight>212132</matl:areaHeight>
+    </matl:areaInfo>
+    <matl:area id="af0f9468-6126-4f92-afef-6afcb6c18fff">
+      <matl:protocolId>b9325c9f-7e31-4648-911f-b33956c9bc31</matl:protocolId>
+      <matl:image>20180824_60x_cycle_A01_G028_0001.oir</matl:image>
+      <matl:xIndex>0</matl:xIndex>
+      <matl:yIndex>0</matl:yIndex>
+    </matl:area>
+  </matl:group>
+  <matl:group xsi:type="matl:SingleAreaROI" objectId="2a41f9d4-27be-4ec5-9420-85dfa032edb8">
+    <marker:regionInfo xsi:type="marker:rectangleRegion">
+      <marker:shape>Rectangle</marker:shape>
+      <marker:coordinates height="212132" width="212132" x="8185974" y="1359054"/>
+    </marker:regionInfo>
+    <matl:protocolGroupId>group41</matl:protocolGroupId>
+    <matl:taskType>LSMImaging</matl:taskType>
+    <matl:enable>true</matl:enable>
+    <matl:description>3089_Ventral</matl:description>
+    <matl:areaInfo>
+      <matl:numOfXAreas>1</matl:numOfXAreas>
+      <matl:numOfYAreas>1</matl:numOfYAreas>
+      <matl:areaLeft>8185974</matl:areaLeft>
+      <matl:areaTop>1359054</matl:areaTop>
+      <matl:areaWidth>212132</matl:areaWidth>
+      <matl:areaHeight>212132</matl:areaHeight>
+    </matl:areaInfo>
+    <matl:area id="ce3928fd-0cb3-4e31-8245-35995be17c3d">
+      <matl:protocolId>6397b6b8-5271-403c-8ab7-378eb439f963</matl:protocolId>
+      <matl:image>20180824_60x_cycle_A01_G029_0001.oir</matl:image>
+      <matl:xIndex>0</matl:xIndex>
+      <matl:yIndex>0</matl:yIndex>
+    </matl:area>
+  </matl:group>
+  <matl:group xsi:type="matl:SingleAreaROI" objectId="379d7f92-3fbc-48fe-b1d1-b3aad580ae26">
+    <marker:regionInfo xsi:type="marker:rectangleRegion">
+      <marker:shape>Rectangle</marker:shape>
+      <marker:coordinates height="212132" width="212132" x="7826674" y="2767414"/>
+    </marker:regionInfo>
+    <matl:protocolGroupId>group42</matl:protocolGroupId>
+    <matl:taskType>LSMImaging</matl:taskType>
+    <matl:enable>true</matl:enable>
+    <matl:description>3089_VNC</matl:description>
+    <matl:areaInfo>
+      <matl:numOfXAreas>1</matl:numOfXAreas>
+      <matl:numOfYAreas>1</matl:numOfYAreas>
+      <matl:areaLeft>7826674</matl:areaLeft>
+      <matl:areaTop>2767414</matl:areaTop>
+      <matl:areaWidth>212132</matl:areaWidth>
+      <matl:areaHeight>212132</matl:areaHeight>
+    </matl:areaInfo>
+    <matl:area id="0f40bdfb-eaf3-4138-ba4f-c31dd112983c">
+      <matl:protocolId>400091d7-d45f-4820-a2ae-cd9e438801f6</matl:protocolId>
+      <matl:image>20180824_60x_cycle_A01_G030_0001.oir</matl:image>
+      <matl:xIndex>0</matl:xIndex>
+      <matl:yIndex>0</matl:yIndex>
+    </matl:area>
+  </matl:group>
+  <matl:group xsi:type="matl:SingleAreaROI" objectId="e5690b06-64f8-440a-8c55-e8a95653dd0d">
+    <marker:regionInfo xsi:type="marker:rectangleRegion">
+      <marker:shape>Rectangle</marker:shape>
+      <marker:coordinates height="212132" width="212132" x="9721254" y="-285646"/>
+    </marker:regionInfo>
+    <matl:protocolGroupId>group43</matl:protocolGroupId>
+    <matl:taskType>LSMImaging</matl:taskType>
+    <matl:enable>true</matl:enable>
+    <matl:description>1685_Dorsal</matl:description>
+    <matl:areaInfo>
+      <matl:numOfXAreas>1</matl:numOfXAreas>
+      <matl:numOfYAreas>1</matl:numOfYAreas>
+      <matl:areaLeft>9721254</matl:areaLeft>
+      <matl:areaTop>-285646</matl:areaTop>
+      <matl:areaWidth>212132</matl:areaWidth>
+      <matl:areaHeight>212132</matl:areaHeight>
+    </matl:areaInfo>
+    <matl:area id="712e3185-2fe3-44d2-8027-b81a0f07113b">
+      <matl:protocolId>f44b53c5-092b-42b6-a268-fc97ed2a0528</matl:protocolId>
+      <matl:image>20180824_60x_cycle_A01_G031_0001.oir</matl:image>
+      <matl:xIndex>0</matl:xIndex>
+      <matl:yIndex>0</matl:yIndex>
+    </matl:area>
+  </matl:group>
+  <matl:group xsi:type="matl:SingleAreaROI" objectId="9f7f94ee-a25b-43c1-a25a-d678d0637108">
+    <marker:regionInfo xsi:type="marker:rectangleRegion">
+      <marker:shape>Rectangle</marker:shape>
+      <marker:coordinates height="212132" width="212132" x="9739314" y="625834"/>
+    </marker:regionInfo>
+    <matl:protocolGroupId>group44</matl:protocolGroupId>
+    <matl:taskType>LSMImaging</matl:taskType>
+    <matl:enable>true</matl:enable>
+    <matl:description>1685_Ventral</matl:description>
+    <matl:areaInfo>
+      <matl:numOfXAreas>1</matl:numOfXAreas>
+      <matl:numOfYAreas>1</matl:numOfYAreas>
+      <matl:areaLeft>9739314</matl:areaLeft>
+      <matl:areaTop>625834</matl:areaTop>
+      <matl:areaWidth>212132</matl:areaWidth>
+      <matl:areaHeight>212132</matl:areaHeight>
+    </matl:areaInfo>
+    <matl:area id="a76aaf77-d0c5-488e-867d-0d88091efbd8">
+      <matl:protocolId>bd53e0e1-770e-4c36-933f-e68caeaed819</matl:protocolId>
+      <matl:image>20180824_60x_cycle_A01_G032_0001.oir</matl:image>
+      <matl:xIndex>0</matl:xIndex>
+      <matl:yIndex>0</matl:yIndex>
+    </matl:area>
+  </matl:group>
+  <matl:group xsi:type="matl:SingleAreaROI" objectId="0c3de6ab-e8f7-4360-9087-87de428f18c8">
+    <marker:regionInfo xsi:type="marker:rectangleRegion">
+      <marker:shape>Rectangle</marker:shape>
+      <marker:coordinates height="212132" width="212132" x="9747874" y="960114"/>
+    </marker:regionInfo>
+    <matl:protocolGroupId>group45</matl:protocolGroupId>
+    <matl:taskType>LSMImaging</matl:taskType>
+    <matl:enable>true</matl:enable>
+    <matl:description>1685_VNC</matl:description>
+    <matl:areaInfo>
+      <matl:numOfXAreas>1</matl:numOfXAreas>
+      <matl:numOfYAreas>1</matl:numOfYAreas>
+      <matl:areaLeft>9747874</matl:areaLeft>
+      <matl:areaTop>960114</matl:areaTop>
+      <matl:areaWidth>212132</matl:areaWidth>
+      <matl:areaHeight>212132</matl:areaHeight>
+    </matl:areaInfo>
+    <matl:area id="3163bd3d-8035-4111-8d18-d00a8db39241">
+      <matl:protocolId>9274419d-b5f8-4562-a9bf-4ef233771160</matl:protocolId>
+      <matl:image>20180824_60x_cycle_A01_G033_0001.oir</matl:image>
+      <matl:xIndex>0</matl:xIndex>
+      <matl:yIndex>0</matl:yIndex>
+    </matl:area>
+  </matl:group>
+  <matl:group xsi:type="matl:SingleAreaROI" objectId="c6d88612-0e77-4424-b488-df841fcc1d64">
+    <marker:regionInfo xsi:type="marker:rectangleRegion">
+      <marker:shape>Rectangle</marker:shape>
+      <marker:coordinates height="212132" width="212132" x="11105194" y="588874"/>
+    </marker:regionInfo>
+    <matl:protocolGroupId>group46</matl:protocolGroupId>
+    <matl:taskType>LSMImaging</matl:taskType>
+    <matl:enable>true</matl:enable>
+    <matl:description>OrR_Dorsal</matl:description>
+    <matl:areaInfo>
+      <matl:numOfXAreas>1</matl:numOfXAreas>
+      <matl:numOfYAreas>1</matl:numOfYAreas>
+      <matl:areaLeft>11105194</matl:areaLeft>
+      <matl:areaTop>588874</matl:areaTop>
+      <matl:areaWidth>212132</matl:areaWidth>
+      <matl:areaHeight>212132</matl:areaHeight>
+    </matl:areaInfo>
+    <matl:area id="bbc8388a-c032-4173-93dd-1c72a0f976dd">
+      <matl:protocolId>d9ed21eb-a921-43f2-a97e-0239273298a2</matl:protocolId>
+      <matl:image>20180824_60x_cycle_A01_G034_0001.oir</matl:image>
+      <matl:xIndex>0</matl:xIndex>
+      <matl:yIndex>0</matl:yIndex>
+    </matl:area>
+  </matl:group>
+  <matl:group xsi:type="matl:SingleAreaROI" objectId="1504050c-4b92-4e8b-9175-6df9d28dd38b">
+    <marker:regionInfo xsi:type="marker:rectangleRegion">
+      <marker:shape>Rectangle</marker:shape>
+      <marker:coordinates height="212132" width="212132" x="10968974" y="2434534"/>
+    </marker:regionInfo>
+    <matl:protocolGroupId>group47</matl:protocolGroupId>
+    <matl:taskType>LSMImaging</matl:taskType>
+    <matl:enable>true</matl:enable>
+    <matl:description>OrR_Ventral</matl:description>
+    <matl:areaInfo>
+      <matl:numOfXAreas>1</matl:numOfXAreas>
+      <matl:numOfYAreas>1</matl:numOfYAreas>
+      <matl:areaLeft>10968974</matl:areaLeft>
+      <matl:areaTop>2434534</matl:areaTop>
+      <matl:areaWidth>212132</matl:areaWidth>
+      <matl:areaHeight>212132</matl:areaHeight>
+    </matl:areaInfo>
+    <matl:area id="6444d9a7-b02f-47e0-932b-da210ae4fe57">
+      <matl:protocolId>d2e1d8c4-f90d-4573-a659-d0e52ab9eef5</matl:protocolId>
+      <matl:image>20180824_60x_cycle_A01_G035_0001.oir</matl:image>
+      <matl:xIndex>0</matl:xIndex>
+      <matl:yIndex>0</matl:yIndex>
+    </matl:area>
+  </matl:group>
+  <matl:group xsi:type="matl:SingleAreaROI" objectId="f1210798-2f61-4846-a2b2-c4a0671f7a45">
+    <marker:regionInfo xsi:type="marker:rectangleRegion">
+      <marker:shape>Rectangle</marker:shape>
+      <marker:coordinates height="212132" width="212132" x="10876614" y="3614874"/>
+    </marker:regionInfo>
+    <matl:protocolGroupId>group48</matl:protocolGroupId>
+    <matl:taskType>LSMImaging</matl:taskType>
+    <matl:enable>true</matl:enable>
+    <matl:description>OrR_VNC</matl:description>
+    <matl:areaInfo>
+      <matl:numOfXAreas>1</matl:numOfXAreas>
+      <matl:numOfYAreas>1</matl:numOfYAreas>
+      <matl:areaLeft>10876614</matl:areaLeft>
+      <matl:areaTop>3614874</matl:areaTop>
+      <matl:areaWidth>212132</matl:areaWidth>
+      <matl:areaHeight>212132</matl:areaHeight>
+    </matl:areaInfo>
+    <matl:area id="b1e23630-7e14-4b5f-b418-e35d89569f60">
+      <matl:protocolId>dcfcbf81-84da-4a7a-b42c-a6d2aa08b654</matl:protocolId>
+      <matl:image>20180824_60x_cycle_A01_G036_0001.oir</matl:image>
+      <matl:xIndex>0</matl:xIndex>
+      <matl:yIndex>0</matl:yIndex>
+    </matl:area>
+  </matl:group>
+  <matl:cycle id="matl_loop">
+    <matl:interval>0.0</matl:interval>
+    <matl:count>1</matl:count>
+    <matl:startGroupId>32132b61-e9e9-41c9-b549-debb2efa4412</matl:startGroupId>
+    <matl:endGroupId>f1210798-2f61-4846-a2b2-c4a0671f7a45</matl:endGroupId>
+  </matl:cycle>
+</matl:properties>
