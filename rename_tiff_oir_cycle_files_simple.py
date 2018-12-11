@@ -43,4 +43,3 @@ for i in filenames:
             newfile = i.replace(i, '20180810_smFISH_screen_'+filename+'.tiff') # input file suffix
             print "newfile =", newfile
             #os.rename(i, newfile)
-#            os.rename(i, newfile)
