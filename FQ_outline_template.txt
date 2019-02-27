@@ -1,0 +1,17 @@
+FISH-QUANT	v2d
+File-version	3D_v1
+RESULTS OF SPOT DETECTION PERFORMED ON 29-Mar-2018 
+COMMENT	Automated outline definition (batch or quick-save)
+IMG_Raw	20170726_Msp300YFP_smFISH_HRP405_DAPI_2sham_p3s4r.ome-1.tiff
+IMG_Filtered	
+IMG_DAPI	
+IMG_TS_label	
+FILE_settings	
+PARAMETERS
+Pix-XY	Pix-Z	RI	Ex	Em	NA	Type
+139	300	1.518	560	570	1.4	confocal
+CELL_START	EntireImage
+X_POS	1	1	512	512	
+Y_POS	1	512	512	1	
+Z_POS	
+CELL_END
