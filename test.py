@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import omero
 import subprocess
 import os
@@ -40,3 +41,6 @@ def import_to_omero(filename,hostname,username,key):
     omeroID = out.split(':')[1]
     print omeroID
     omeroID.append['new_ID']
+=======
+print ('works')
+>>>>>>> 62675e050218d15ed7a8d444d6571f7996f34f09

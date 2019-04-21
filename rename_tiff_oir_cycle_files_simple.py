@@ -2,7 +2,11 @@
 # created: 8 September 2018
 #
 # For series of large cycle .oir filenames
+<<<<<<< HEAD
 # after converting to single .tiff  
+=======
+# after converting to single .tiff
+>>>>>>> 62675e050218d15ed7a8d444d6571f7996f34f09
 #
 # Run from inside target directory
 #
@@ -43,4 +47,7 @@ for i in filenames:
             newfile = i.replace(i, '20180810_smFISH_screen_'+filename+'.tiff') # input file suffix
             print "newfile =", newfile
             #os.rename(i, newfile)
+<<<<<<< HEAD
 #            os.rename(i, newfile)
+=======
+>>>>>>> 62675e050218d15ed7a8d444d6571f7996f34f09

@@ -16,11 +16,7 @@ root = tree.getroot()
 
 #get cwd
 cwd = os.getcwd()
-<<<<<<< HEAD
-filenames = [file for file in os.listdir(cwd) if file.endswith('.tiff')]
-=======
 filenames = [file for file in os.listdir(cwd) if file.endswith('.tiff')] # input file suffix
->>>>>>> 62675e050218d15ed7a8d444d6571f7996f34f09
 
 # map matl namespace
 ns = {'matl':'http://www.olympus.co.jp/hpf/protocol/matl/model/matl'}
@@ -43,20 +39,11 @@ for group in root.findall('matl:group', ns):
 # replace image name with description nameL
 for i in filenames:
     for fileId, filename in file_dict.items():
-<<<<<<< HEAD
-        if i in fileId+'.tiff' and 'OrR' not in fileId:
-            newfile = i.replace(i, '20180824_CPTI00'+filename+'.tiff') # input file suffix
-=======
         if i in fileId+'.tiff' and 'OrR' not in fileId: # if input files are .oir.tiff
             newfile = i.replace(i, '20180824_CPTI00'+filename+'.tiff') # output file suffix
->>>>>>> 62675e050218d15ed7a8d444d6571f7996f34f09
             print newfile
             os.rename(i, newfile)
         if i in fileId+'.tiff' and 'OrR' in fileId:
             newfile = i.replace(i, '20180824_'+filename+'.tiff') # filename output
             os.rename(i, newfile)
-<<<<<<< HEAD
-print filenames
-=======
     print processing i
->>>>>>> 62675e050218d15ed7a8d444d6571f7996f34f09
