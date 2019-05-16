@@ -21,8 +21,8 @@ import tifffile
 import os
 
 # Get infiles
-#indir = '/Volumes/bioc1301/data/20190313_AdultBrain_MB077c_CamKYFP_smFISH_learning/'
-indir = '/usr/people/bioc1301/data//20190419_AdultBrain_LTM_mb077c_CamkII_smFISH/'
+indir = '/Volumes/bioc1301/data/20190313_AdultBrain_MB077c_CamKYFP_smFISH_learning/'
+#indir = '/usr/people/bioc1301/data/20190515/'
 infiles = os.listdir(indir)
 
 # Setup outdir
